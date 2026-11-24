@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+#TOP{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+header{
+    padding: 19px 0;
+    background-color: black;
+    text-align: center;
+    margin-bottom: 120px;
+}
+.top-text-1{
+    text-align: center;
+    font-size: 72px;
+    margin-bottom: 37px;
+    
+}
+
+.top-text-2{
+    color: gray;
+    margin-bottom: 80px;
+    text-align: center;
+    font-size: 24px;
+    
+} 
+.top-image{
+    display: flex;
+    gap: 21px;
+    display: flex;justify-content: center;
+    margin-bottom: 240px;
+}
+
+
+.middle-left{
+    margin-left: 120px;
+    margin-right: 150px;
+}
+
+.middle-left-top-top-text{
+    color: gray;
+    text-align: left;
+    font-size: 24px;
+    margin-bottom: 10px;
+
+}
+.middle-left-top-bottom-text{
+    color: black;
+    font-size: 48px;
+    margin-bottom: 80px;
+    
+}
+.day-dash{
+    border-left: 3px dashed black;
+    height: 45px;
+    position: absolute;
+    bottom: -45px;
+    
+
+}
+.middle-left-bottom-route{
+    width: 56px;
+    height: 56px;
+    border-radius: 40px;
+    background-color: black;
+    color: lightgreen;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 16px;
+    position: relative;
+    margin-bottom: 39.8px;
+}
+.middle-left-bottom-top{
+    display: flex;
+}
+.middle-left-bottom-right-text-1{
+    font-size: 16px;
+    margin-bottom: 4px;
+
+}
+.middle-left-bottom-right-text-2{
+    font-size: 12px;
+    color: gray;
+}
+
+
+/* test position */
+
+.test{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    position: relative;
+    right: 0;
+}
+
+.abso1{
+    height: 30px;
+    width: 30px;
+    background-color: red;
+    position: absolute;
+    bottom: 10px;
+}
+
+.abso2{
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    color: white;
+    position: absolute;
+}
